@@ -1,0 +1,14 @@
+bq_datavault_tutorial:
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: burner-chavenna
+      dataset: dbt_datavault_biqquery_ds
+      threads: 1
+      keyfile: C:/GCP/data-vault-biq-query/bg-serivce-account.json
+      timeout_seconds: 299
+      priority: interactive
+      retries: 1
+
+  target: dev
