@@ -1,5 +1,5 @@
 {%- set yaml_metadata -%}
-source_model: 'SalesOrderItems'
+source_model: 'raw_salesorderitems'
 derived_columns:
   SALESORDER_KEY: 'SALESORDERID'
   RECORD_SOURCE: '!SalesOrderItems'

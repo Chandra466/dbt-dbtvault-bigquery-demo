@@ -1,3 +1,4 @@
+{{ config(materialized='incremental')    }}
 {%- set source_model = "stg_salesorderitems" -%}
 {%- set src_pk = "SALESORDER_PK" -%}
 {%- set src_hashdiff = "SALESORDER_HASHDIFF" -%}

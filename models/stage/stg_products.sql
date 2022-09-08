@@ -1,5 +1,5 @@
 {%- set yaml_metadata -%}
-source_model: 'Products'
+source_model: 'raw_products'
 derived_columns:
   RECORD_SOURCE: '!Products'
   EFFECTIVE_FROM: 'CHANGEDAT'

@@ -1,0 +1,1 @@
+select * FROM {{ source('dbtvault_bigquery_demo', 'SalesOrderItems') }}

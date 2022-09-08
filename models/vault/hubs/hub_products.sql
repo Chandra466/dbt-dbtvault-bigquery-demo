@@ -1,3 +1,4 @@
+{{ config(materialized='incremental')    }}
 {%- set source_model = ["stg_products"] -%}
 {%- set src_pk = "PRODUCT_PK" -%}
 {%- set src_nk = "PRODUCTID" -%}

@@ -1,3 +1,4 @@
+{{ config(materialized='incremental')    }}
 {%- set source_model = "stg_salesorderitems" -%}
 {%- set src_pk = "LINK_PRODUCT_SALESORDER_PK" -%}
 {%- set src_fk = ["SALESORDER_PK", "PRODUCT_PK"] -%}

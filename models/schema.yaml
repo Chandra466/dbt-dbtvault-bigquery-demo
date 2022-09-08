@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dbtvault_bigquery_demo
+    database: burner-chavenna
+    schema: dbt_datavault_biqquery_ds
+    tables:
+      - name: Products
+      - name: SalesOrderItems
+
