@@ -5,7 +5,7 @@ bq_datavault_tutorial:
       method: service-account
       project: burner-chavenna
       dataset: dbt_datavault_biqquery_ds
-      threads: 1
+      threads: 4
       keyfile: C:/GCP/data-vault-biq-query/bg-serivce-account.json
       timeout_seconds: 299
       priority: interactive
